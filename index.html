@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nota de Perdón</title>
+  <style>
+    body {
+      background: #ffe6f0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .carta {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      padding: 40px;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #d6336c;
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+      margin-top: 20px;
+      line-height: 1.6;
+    }
+
+    .botones {
+      margin-top: 30px;
+    }
+
+    button {
+      background-color: #d6336c;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      margin: 0 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ad2954;
+    }
+
+    button.no {
+      background-color: #aaa;
+    }
+
+    button.no:hover {
+      background-color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="carta">
+    <h1>Querida mía ❤️</h1>
+    <p>
+      Quería pedirte perdón y decirte que realmente me siento arrepentido de mis actitudes al salir del Discord.  
+      Te tendría que haber avisado de antemano que iba a jugar a los juegos con un amigo (que después no jugué).  
+      <br><br>
+      Quería pedirte amablemente que me perdones.
+      <br><br>
+      Atte,<br>
+      Tu novio, Lorenzo 💌
+    </p>
+    <div class="botones">
+      <button onclick="alert('¡Gracias por perdonarme! ❤️')">Sí</button>
+      <button class="no" onclick="alert('Lo entiendo... 😢')">No</button>
+    </div>
+  </div>
+</body>
+</html>
